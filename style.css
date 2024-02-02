@@ -1,0 +1,78 @@
+header{
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+}
+header img{
+    height:70px;
+}
+header h1{
+    font-family: sans-serif;
+    color: blue;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(221,221,221);
+    gap:30px;
+}
+nav img{
+    height:50px ;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+}
+nav a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+nav a:hover{
+    color:rgb(104,24,231); 
+}
+
+.aside_nave{
+    display:flex;
+    flex-direction: row;
+
+}
+aside{
+    display: flex;
+    width: 25%;
+    height: 800px;
+    background-color:mediumaquamarine ;
+    align-items: center;
+    justify-content: space-around;
+}
+
+aside div{
+    border: 2px solid;
+    width: 250px;
+    height:700px ;
+}
+main{
+    display: flex;
+    flex-direction:row;
+    width: 75%;
+    height: 800px;
+    background-color: blueviolet;
+    align-items: center;
+    justify-content: space-around;
+}
+main div:nth-child(1){
+    border: 2px solid;
+    width: 250px;
+    height: 700px;
+}
+main div:nth-child(2){
+    border: 2px solid;
+    width: 250px;
+    height: 700px;
+}
+main div:nth-child(3){
+    border: 2px solid;
+    width: 250px;
+    height: 700px;
+}
