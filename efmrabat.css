@@ -1,0 +1,55 @@
+h2{
+    margin-bottom: 0px;
+}
+h1{
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+}
+img{
+    height:30px;
+    margin-top: 20px;
+}
+.div1{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    justify-content: space-between;
+}
+.sdiv1{
+    display: flex;
+    flex-direction: column;
+    
+}
+.free{
+    margin-top: 0px;
+}
+.imgtitle{
+    display: flex;
+}
+.gdiv{
+    display: flex;
+    flex-direction: column;
+
+}
+.p{
+    margin-top: 0px;
+}
+.b1{
+    width: 400px;
+    margin-right: 0px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    margin-left: 0px;
+}
+.win:hover{
+    color: green;
+    cursor: pointer;
+    text-decoration: underline;
+}
