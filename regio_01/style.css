@@ -74,7 +74,7 @@ main div{
     flex-direction: column;
     border: 2px solid;
     width: 250px;
-    height: 700px;
+    height: 500px;
   
    
 }
@@ -100,10 +100,12 @@ main a{
     height:70px ;
     background-color: black;
     border-radius: 20px;
-    text-align: center;
     text-decoration: none;
     color: white;
     font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 main a:first-child{
     height: 100px;
