@@ -1,0 +1,127 @@
+I- partie theorique
+	1- <!DOCTYPE html>
+	   <html>
+		<head>
+			<meta "charset=utf-8"/> 
+			<meta name=  content="widhe=divice-widhe, itial-scal=1.0"/>
+			<title>Document</title>
+		</head>
+		<body>
+			<h1></h1>
+			<p>lorem</p>
+		</body>
+           </html>
+	
+	2- d. exemple: <form>
+			  <label for="nom">Name</label>
+		          <input type="texte" id="nom" name="nom"/>
+			</from>
+	3- <ul type="sqwer">
+		<li>home</li>
+		<li>about</li>
+		<li>contat</li>
+	  </ul>
+	4- a.h1{
+		color:blue;
+		font-size:2em;
+		pading-bottom:20px;
+		}
+	  b. div.exemple{
+		background-color:yellow;
+		border: solide 2px orange;
+		margin:15px;
+		font-familly:verdana;
+		color:grey;
+		height:150px;
+		display:flex;
+		flex-direction:column;
+		justify-content:space-betwen;/gap:20px;
+		aligne-items:center;		
+		}
+II- partie pratique 
+	1- <!DOCTYPE html>
+		<html>
+		<head>
+			<meta charset="utf-8"/>
+			<meta name="" content="width=device-width, initial-scal=1.0"/>
+			<title>Document</title>
+		</head>
+		<body>
+			<header>
+				regime de l'assurance maladie obligatoire 				de base des personne ne pouvant s'acquitter 				des droits de cotisation - AMO TADAMON
+			</header>
+		
+
+			<nav>
+				<img srs="" alt="image inatrouvale!"/>
+				<div>
+					<a href="#">Accueil</a>
+				   	<select>
+				           		<a href="#">
+						<option>Services en ligne</option>
+				      		</a>
+				   	</select>
+					<a href="#">Informations pratiques</a>
+					<a href="#">عربية</a>
+				</div>
+			 </nav>
+			<main>
+				<h1>>Demande d'inscription</h1>
+				<article>
+				 	<h4>1- Informations sur le demandeur</h4>
+				 	<form>
+						<label for="identifiant">Identifiant Digital Civil et Social</label>
+						<input type="texte" id="identifiant" name="id"/>
+					</form>
+					<form>
+						<label for="date">Date de naissance</label>
+						<input type="date" id="date" name="date"/>
+					</form>
+					<form>
+						<label>Genre</label>
+					
+						<input type="radio" id="main" name="genre"/>
+						<label for="main">Homme</label>
+				        
+						<input type="radio" id="womain" name="genre"/>
+						<label for="womain">Femme</label>
+					</form>
+					<form>
+						<label>Etes vous marie?</label>
+					
+						<input type="radio" id="oui" name="marie"/>
+						<label for="oui">Oui</label>
+				        
+						<input type="radio" id="<input type="radio" id="non"/>
+						<label for="non">Non</label>" name="marie"/>
+					</form>
+				</article>
+				<article>
+					<h4>3- Liste des enfants pris en charge *</h4>
+					<div>
+						<form>
+							<label for="idcs">IDCS</label>
+							<input type="texte" id="idcs" name="idcs"/>
+						</form>
+						<form>
+							<label for="date">Date de naissance</label>
+							<input type="date" id="date" name="date"/>
+						</form>
+						<form>
+							<label>Genre</label>
+					
+							<input type="radio" id="main" name="genre"/>
+							<label for="main">Homme</label>
+				        
+							<input type="radio" id="womain" name="genre"/>
+							<label for="womain">Femme</label>
+							
+							<button>+</button>
+						</form>
+				</article>
+				<article>
+					<button>Enregistrer la demande</button>
+				</article>
+			</main>
+		</body>
+	</html>
