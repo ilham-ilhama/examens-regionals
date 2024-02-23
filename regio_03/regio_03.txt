@@ -2,8 +2,8 @@ I- partie theorique
 	1- <!DOCTYPE html>
 	   <html>
 		<head>
-			<meta "charset=utf-8"/> 
-			<meta name=  content="widhe=divice-widhe, itial-scal=1.0"/>
+			<meta charset="utf-8"/> 
+			<meta name="viewport"  content="width=device-width, initial-scale=1.0"/>
 			<title>Document</title>
 		</head>
 		<body>
@@ -13,10 +13,10 @@ I- partie theorique
            </html>
 	
 	2- d. exemple: <form>
-			  <label for="nom">Name</label>
+			  <label for="nom">Name :</label>
 		          <input type="texte" id="nom" name="nom"/>
 			</from>
-	3- <ul type="sqwer">
+	3- <ul type="square">
 		<li>home</li>
 		<li>about</li>
 		<li>contat</li>
@@ -44,11 +44,13 @@ II- partie pratique
 		<head>
 			<meta charset="utf-8"/>
 			<meta name="" content="width=device-width, initial-scal=1.0"/>
+			<link rel="stylesheet" href="style.css"/>
 			<title>Document</title>
 		</head>
 		<body>
 			<header>
-				regime de l'assurance maladie obligatoire 				de base des personne ne pouvant s'acquitter 				des droits de cotisation - AMO TADAMON
+				regime de l'assurance maladie obligatoi de base des personne 
+				ne pouvant s'acquitter des droits de cotisation - AMO TADAMON
 			</header>
 		
 
@@ -71,7 +73,7 @@ II- partie pratique
 				 	<h4>1- Informations sur le demandeur</h4>
 				 	<form>
 						<label for="identifiant">Identifiant Digital Civil et Social</label>
-						<input type="texte" id="identifiant" name="id"/>
+						<input type="text" id="identifiant" name="id"/>
 					</form>
 					<form>
 						<label for="date">Date de naissance</label>
@@ -101,7 +103,7 @@ II- partie pratique
 					<div>
 						<form>
 							<label for="idcs">IDCS</label>
-							<input type="texte" id="idcs" name="idcs"/>
+							<input type="text" id="idcs" name="idcs"/>
 						</form>
 						<form>
 							<label for="date">Date de naissance</label>
@@ -116,12 +118,46 @@ II- partie pratique
 							<input type="radio" id="womain" name="genre"/>
 							<label for="womain">Femme</label>
 							
-							<button>+</button>
+							<input type="button" placehoder="+"/>
 						</form>
 				</article>
 				<article>
 					<button>Enregistrer la demande</button>
-				</article>
+				<article>
 			</main>
 		</body>
 	</html>
+
+
+		2- a.h4{
+			background-color:lghtgreen;
+			color:black;
+			padding:10px;
+			}
+
+		   b.input[type="text"],input[type="date"]{
+							   border:solid 1px;
+							   color:grey;
+                                                           border-redius:4px;
+							   width:200px;								
+                                                          }
+	          c.input:focus{
+				background-color:aqua;
+				border:solid 1px blue;
+				box-shadaw:1px 1px 12px 18px red;
+				}
+		  d.input[type="button"]{
+					 color:white;
+					 width:20px;
+					 height:20px;
+					background-color:green;
+					}
+		    button{
+                           background-color:green;
+			   color:white;
+			   width:300px;
+			   heigt:30px;
+			  }
+
+
+ 

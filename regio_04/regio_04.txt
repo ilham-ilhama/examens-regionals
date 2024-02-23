@@ -1,0 +1,126 @@
+I- parti theorique
+	1- <!DOCTYPEhtml>
+	   <html>
+		<head>
+		     <title>Document<title>
+		</head>
+		<body>
+		</body>
+		</html>
+	2- e. exemple:
+			<header><h1>hello world</h1></header>
+			<main>
+			   <article><img src=""/></article>
+			   <section><p>lorem</p></section>
+			</main>
+			<footer>ul><li></li></ul></footer>
+	3- <ol type="i">
+		<li>i</li>
+		<li>ii</li>
+		<li>iii</li>
+	   </ol>
+	4- a. h1{
+		text-aligne:center;
+		color:red;
+		font-size:2em;
+		}
+
+	   b. div.box{
+			background-color:blue;
+			box-shadow:3px 3px 3px 3px;
+			font-family:arial;
+			color:white;
+			display:flex;
+			flex-direction:column;
+			align-items:center;
+			flex-direction:row;
+			justify-content:center;
+			}
+
+II- partie pratique:
+	1. <!DOCTYPE html>
+	   <html>
+		<head>
+		    <meta charset="utf-8"/>
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	            <link rel="stylesheet" href="style.css"/>
+                    <title>Document</title>
+		</head>
+		<body>
+		    <header>
+			<p>Demande d'inscription avec depot au Centre de services aux Citoyens</p>
+			<form>
+				<input type="radio" id="je" name="choix"/>
+				<label for="je">je deja creer une nouvelle inscription</label>
+				<input type="radio" id="deja" name="choix"/>
+				<label for="deja">j'ai deja une demmande d'inscription nom encore deposee auoers du csc</label>
+			</form>
+		    </header>
+		    <article>
+			<fieldset>
+			     <legend>Information du chef de menage</legend>
+			 		
+
+				  <div>
+					<filedset>
+					      <legend>IDCS:</legend>
+					      <input type="text" placehoder="identifiant digital Civil et social">
+					 </filedset>
+
+					<filedset>
+					      <legend for="nom">Nom:</legend>
+                                              <input type="text" id="nom" >
+					</filedset>
+
+					<filedset>
+					      <legend for="prenom">Prenom:</legend>
+					      <input type="text" id="prenom">
+					</filedset>
+					<div>
+						<fieldset>
+						      <legend>Jour:</legend>
+<input
+
+</fieldset>
+                                        </div>
+					
+				   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+<section>
+</section>
+
+<footer>
+</footer>
+
+
+
+</body>
+</html>
+
+	   	
+
