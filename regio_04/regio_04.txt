@@ -79,48 +79,84 @@ II- partie pratique:
 					<div>
 						<fieldset>
 						      <legend>Jour:</legend>
-<input
+						      <input type="text" plachoder="JJ"/>
+						</fieldset>
+						
+						<fieldset>
+						      <legend>Mois:</legend>
+						      <input type="text" plachoder="MM"/>
+						</fieldset>
+						
+						<fieldset>
+						      <legend>Annee:</legend>
+						      <input type="text" plachoder="AAAA"/>
+						</fieldset>
+					       <p>si vous ne disposer pas du jour et du mois de naissance laissez lees deux casees correspondantes vides</p>
+					</div>
+        			   </div>
+				   <div>
+					<fieldset>
+						<legend>Genre:</legend>
+							<form>
+							    <input type="radio" id="femme" name="choix"/>
+							    <label for="femme">Feminin</label>
+							    <input type="radio" id="homme" name="choix"/>
+							    <label for="homme">Masculin</label>	
+					                </form>
+					</fieldset>
 
-</fieldset>
-                                        </div>
-					
+					<fieldset>
+						<lagend>Type de la piece d'identite:</lagend>
+							<select>
+								<option>Selectionnez un element</option>
+							</select>
+					</fieldset>
+						
+					<fieldset>
+						<lagend for="num">N de la piece d'identite:</lagend>
+						<input type="number" id="num"/>
+					</fieldset>
 				   </div>
+			      </fieldset>
+		         </article
 
+			<section>
+				<fieldset>
+					<lagend>Adress du menage:</lagend>
+						<fieldset>
+							<lagend>Region:</lagend>
+							<select>
+								<option>Selectionnez un element</option>
+							</select>
+						</fieldset>
 
+						<fieldset>
+							<lagend>Prefecture ou province:</lagend>
+							<select>
+								<option>Selectionnez un element</option>
+							</select>
+						</fieldset>
 
-
-
-
-
-
-
-
-
-
-
-</fieldset>
-
-
-
-
-
-
-
-
-
-
-
-</article>
-<section>
-</section>
-
-<footer>
-</footer>
-
-
-
-</body>
-</html>
+						<fieldset>
+							<lagend>Pachalik ou cerle ou district:</lagend>
+							<select>
+								<option>Selectionnez un element</option>
+							</select>
+						</fieldset>
+				</fieldset>
+			   </section>
+			   <footer>
+				<button>
+					<img src=""/>
+					ANNULER
+				</button>
+				<button>
+					<img src=""/>
+					valider
+				</button> 
+			   </footer>
+                     </body>
+		</html>
 
 	   	
 
